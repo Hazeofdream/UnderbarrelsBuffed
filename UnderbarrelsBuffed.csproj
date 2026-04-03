@@ -13,7 +13,7 @@
 	<PropertyGroup>
         <DistDir>dist</DistDir>
         <DirToZip>$(DistDir)\$(AssemblyName)</DirToZip>
-		<TarkovDir Condition=" '$(TarkovDir)' == '' ">D:\Games\SPT 4.0.11 - DEV</TarkovDir>
+		<TarkovDir Condition=" '$(TarkovDir)' == '' ">C:\Users\Haze_of_dream\AppData\Roaming\SPT 4</TarkovDir>
 		<ModOutputDir>$(TarkovDir)\SPT\user\mods\$(AssemblyName)</ModOutputDir>
     </PropertyGroup>
     <Target Name="Zip" AfterTargets="AfterBuild">
