@@ -46,7 +46,7 @@ public class UnderbarrelsBuffed(
             if (itemHelper.IsOfBaseclass(itemId, BaseClasses.LAUNCHER))
             {
                 props.Ergonomics = 0.0;
-                props.Weight = 1.36;
+                props.Weight = 0.96;
             }
         }
 
