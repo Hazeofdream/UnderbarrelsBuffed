@@ -45,11 +45,8 @@ public class UnderbarrelsBuffed(
             // Only target underbarrel grenade launchers
             if (itemHelper.IsOfBaseclass(itemId, BaseClasses.LAUNCHER))
             {
-                // Remove negative ergonomics penalties
-                if (props.Ergonomics < 0.0)
-                {
-                    props.Ergonomics = 0.0;
-                }
+                props.Ergonomics = 0.0;
+                props.Weight = 1.36;
             }
         }
 
